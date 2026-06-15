@@ -1,0 +1,56 @@
+{
+    "compatible_printers": [],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "fan_min_speed": [
+        "20"
+    ],
+    "filament_cost": [
+        "17.81"
+    ],
+    "filament_density": [
+        "1.23"
+    ],
+    "filament_max_volumetric_speed": [
+        "5"
+    ],
+    "filament_settings_id": [
+        "Elegoo PLA - Reeder"
+    ],
+    "filament_vendor": [
+        "Elegoo"
+    ],
+    "from": "User",
+    "full_fan_speed_layer": [
+        "3"
+    ],
+    "hot_plate_temp": [
+        "65"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "65"
+    ],
+    "inherits": "Polymaker General PLA Family @U1",
+    "is_custom_defined": "0",
+    "name": "Elegoo PLA - Reeder",
+    "nozzle_temperature_initial_layer": [
+        "225"
+    ],
+    "pressure_advance": [
+        "0.02166"
+    ],
+    "slow_down_min_speed": [
+        "7"
+    ],
+    "temperature_vitrification": [
+        "61"
+    ],
+    "textured_plate_temp": [
+        "70"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "70"
+    ],
+    "version": "2.2.44.2"
+}

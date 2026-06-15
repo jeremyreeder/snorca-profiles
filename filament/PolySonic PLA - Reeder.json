@@ -1,0 +1,47 @@
+{
+    "compatible_printers": [],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "fan_min_speed": [
+        "30"
+    ],
+    "filament_cost": [
+        "24.99"
+    ],
+    "filament_density": [
+        "1.23"
+    ],
+    "filament_flow_ratio": [
+        "0.966"
+    ],
+    "filament_max_volumetric_speed": [
+        "20"
+    ],
+    "filament_settings_id": [
+        "PolySonic PLA - Reeder"
+    ],
+    "from": "User",
+    "full_fan_speed_layer": [
+        "3"
+    ],
+    "hot_plate_temp": [
+        "60"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "60"
+    ],
+    "inherits": "Polymaker General PLA Family @U1",
+    "is_custom_defined": "0",
+    "name": "PolySonic PLA - Reeder",
+    "nozzle_temperature": [
+        "210"
+    ],
+    "pressure_advance": [
+        "0.0227"
+    ],
+    "temperature_vitrification": [
+        "61"
+    ],
+    "version": "2.2.44.2"
+}

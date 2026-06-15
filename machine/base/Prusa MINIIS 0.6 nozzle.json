@@ -1,0 +1,252 @@
+{
+    "adaptive_bed_mesh_margin": "0",
+    "auxiliary_fan": "0",
+    "bbl_use_printhost": "0",
+    "bed_custom_model": "/home/jeremy/Downloads/mini_bed.stl",
+    "bed_custom_texture": "",
+    "bed_exclude_area": [
+        "0x0"
+    ],
+    "bed_mesh_max": "99999,99999",
+    "bed_mesh_min": "-99999,-99999",
+    "bed_mesh_probe_distance": "50,50",
+    "before_layer_change_gcode": ";BEFORE_LAYER_CHANGE\nG92 E0.0\n;[layer_z]\nM201 X{interpolate_table(extruded_weight_total, (0,4000), (1000,1700), (10000,1700))} Y{interpolate_table(extruded_weight_total, (0,4000), (1000,1700), (10000,1700))}",
+    "best_object_pos": "0.5,0.5",
+    "change_extrusion_role_gcode": "",
+    "change_filament_gcode": "M600",
+    "cooling_tube_length": "5",
+    "cooling_tube_retraction": "91.5",
+    "default_bed_type": "",
+    "default_filament_profile": [
+        "Prusa Generic PLA @MINIIS 0.6"
+    ],
+    "default_print_profile": "0.25mm Standard @MINIIS",
+    "deretraction_speed": [
+        "40"
+    ],
+    "disable_m73": "0",
+    "emit_machine_limits_to_gcode": "1",
+    "enable_change_pressure_when_wiping": "1",
+    "enable_filament_ramming": "1",
+    "enable_long_retraction_when_cut": "0",
+    "extra_loading_move": "-2",
+    "extruder_clearance_height_to_lid": "140",
+    "extruder_clearance_height_to_rod": "20",
+    "extruder_clearance_radius": "45",
+    "extruder_colour": [
+        "#018001"
+    ],
+    "extruder_offset": [
+        "0x0"
+    ],
+    "fan_kickstart": "0",
+    "fan_speedup_overhangs": "1",
+    "fan_speedup_time": "0.2",
+    "from": "User",
+    "gcode_flavor": "marlin2",
+    "head_wrap_detect_zone": [],
+    "high_current_on_filament_swap": "0",
+    "host_type": "prusalink",
+    "inherits": "",
+    "is_custom_defined": "0",
+    "layer_change_gcode": ";AFTER_LAYER_CHANGE\n;[layer_z]\n{if ! spiral_mode}M74 W[extruded_weight_total]{endif}\n",
+    "long_retractions_when_cut": [
+        "0"
+    ],
+    "machine_end_gcode": "{if max_layer_z < max_print_height}G1 Z{z_offset+min(max_layer_z+2, max_print_height)} F720 ; Move print head up{endif}\nG1 X170 Y170 F4200 ; park print head\n{if max_layer_z < max_print_height}G1 Z{z_offset+min(max_layer_z+50, max_print_height)} F720 ; Move print head further up{endif}\nG4 ; wait\nM104 S0 ; turn off temperature\nM140 S0 ; turn off heatbed\nM107 ; turn off fan\nM221 S100 ; reset flow\nM572 S0 ; reset PA\nM569 S1 X Y ; reset to stealthchop for X Y\nM84 ; disable motors\n; max_layer_z = [max_layer_z]",
+    "machine_load_filament_time": "17",
+    "machine_max_acceleration_e": [
+        "5000",
+        "5000"
+    ],
+    "machine_max_acceleration_extruding": [
+        "4000",
+        "4000"
+    ],
+    "machine_max_acceleration_retracting": [
+        "1250",
+        "1250"
+    ],
+    "machine_max_acceleration_travel": [
+        "4000",
+        "4000"
+    ],
+    "machine_max_acceleration_x": [
+        "4000",
+        "4000"
+    ],
+    "machine_max_acceleration_y": [
+        "4000",
+        "4000"
+    ],
+    "machine_max_acceleration_z": [
+        "400",
+        "400"
+    ],
+    "machine_max_jerk_e": [
+        "10",
+        "2.5"
+    ],
+    "machine_max_jerk_x": [
+        "8",
+        "8"
+    ],
+    "machine_max_jerk_y": [
+        "8",
+        "8"
+    ],
+    "machine_max_jerk_z": [
+        "2",
+        "2"
+    ],
+    "machine_max_junction_deviation": [
+        "0",
+        "0"
+    ],
+    "machine_max_speed_e": [
+        "80",
+        "25"
+    ],
+    "machine_max_speed_x": [
+        "400",
+        "400"
+    ],
+    "machine_max_speed_y": [
+        "400",
+        "400"
+    ],
+    "machine_max_speed_z": [
+        "12",
+        "12"
+    ],
+    "machine_min_extruding_rate": [
+        "0",
+        "0"
+    ],
+    "machine_min_travel_rate": [
+        "0",
+        "0"
+    ],
+    "machine_pause_gcode": "M601",
+    "machine_start_gcode": "M862.3 P \"MINI\" ; printer model check\nM862.1 P[nozzle_diameter] ; nozzle diameter check\nM862.5 P2 ; g-code level check\nM862.6 P\"Input shaper\" ; FW feature check\nM115 U6.0.3+14902\nG90 ; use absolute coordinates\nM83 ; extruder relative mode\nG28 ; home all without mesh bed level\nM104 S170 ; set extruder temp for bed leveling\nM140 S[first_layer_bed_temperature] ; set bed temp\nM109 R170 ; wait for bed leveling temp\nM190 S[first_layer_bed_temperature] ; wait for bed temp\nM569 S1 X Y ; set stealthchop for X Y\nM204 T1250 ; set travel acceleration\nG29 ; mesh bed leveling \nM104 S[first_layer_temperature] ; set extruder temp\nG92 E0\n\nG1 X0 Y-2 Z3 F2400\n\nM109 S[first_layer_temperature] ; wait for extruder temp\n\n; intro line\nG1 X10 Z0.2 F1000\nG1 X70 E8 F900\nG1 X140 E10 F700\nG92 E0\n\nM569 S0 X Y ; set spreadcycle for X Y\nM204 T[machine_max_acceleration_travel] ; restore travel acceleration\nM572 W0.06 ; set smooth time\nM221 S95 ; set flow",
+    "machine_tool_change_time": "0",
+    "machine_unload_filament_time": "16",
+    "manual_filament_change": "0",
+    "max_layer_height": [
+        "0.4"
+    ],
+    "max_resonance_avoidance_speed": "120",
+    "min_layer_height": [
+        "0.15"
+    ],
+    "min_resonance_avoidance_speed": "70",
+    "name": "Prusa MINIIS 0.6 nozzle",
+    "nozzle_diameter": [
+        "0.6"
+    ],
+    "nozzle_height": "2.5",
+    "nozzle_hrc": "0",
+    "nozzle_type": "brass",
+    "nozzle_volume": "0",
+    "parking_pos_retraction": "92",
+    "pellet_modded_printer": "0",
+    "preferred_orientation": "0",
+    "print_host": "",
+    "print_host_webui": "",
+    "printable_area": [
+        "0x0",
+        "180x0",
+        "180x180",
+        "0x180"
+    ],
+    "printable_height": "180.2",
+    "printer_model": "Prusa MINIIS",
+    "printer_notes": "Compared to the standard Prusa MINI, the nozzle is upgraded to a 0.6mm nozzle of hardened steel. Additionally, the firmware is upgraded to support Input Shaping.\n\nDon't remove the following keywords! These keywords are used in the \"compatible printer\" condition of the print and filament profiles to link the particular print and filament profiles to this printer profile.\nPRINTER_VENDOR_PRUSA3D\nPRINTER_MODEL_MINIIS\nNO_TEMPLATES",
+    "printer_settings_id": "Prusa MINIIS 0.6 nozzle",
+    "printer_structure": "undefine",
+    "printer_technology": "FFF",
+    "printer_variant": "0.6",
+    "printhost_apikey": "",
+    "printhost_authorization_type": "key",
+    "printhost_cafile": "",
+    "printhost_password": "",
+    "printhost_port": "",
+    "printhost_ssl_ignore_revoke": "0",
+    "printhost_user": "",
+    "printing_by_object_gcode": "",
+    "purge_in_prime_tower": "1",
+    "ramming_line_width_ratio": "2",
+    "ramming_pressure_advance_value": "0",
+    "resonance_avoidance": "0",
+    "retract_before_wipe": [
+        "70%"
+    ],
+    "retract_length_toolchange": [
+        "2"
+    ],
+    "retract_lift_above": [
+        "0"
+    ],
+    "retract_lift_below": [
+        "0"
+    ],
+    "retract_lift_enforce": [
+        "All Surfaces"
+    ],
+    "retract_restart_extra": [
+        "0"
+    ],
+    "retract_restart_extra_toolchange": [
+        "0"
+    ],
+    "retract_when_changing_layer": [
+        "1"
+    ],
+    "retraction_distances_when_cut": [
+        "18"
+    ],
+    "retraction_length": [
+        "2.8"
+    ],
+    "retraction_minimum_travel": [
+        "1.5"
+    ],
+    "retraction_speed": [
+        "70"
+    ],
+    "scan_first_layer": "0",
+    "silent_mode": "0",
+    "single_extruder_multi_material": "1",
+    "support_air_filtration": "1",
+    "support_chamber_temp_control": "1",
+    "support_multi_bed_types": "0",
+    "template_custom_gcode": "",
+    "thumbnails": "16x16/QOI, 200x240/QOI",
+    "thumbnails_format": "QOI",
+    "time_cost": "0",
+    "time_lapse_gcode": "",
+    "tool_change_temprature_wait": "1",
+    "travel_slope": [
+        "3"
+    ],
+    "upward_compatible_machine": [],
+    "use_firmware_retraction": "0",
+    "use_relative_e_distances": "1",
+    "version": "2.3.1.10",
+    "wipe": [
+        "1"
+    ],
+    "wipe_distance": [
+        "1"
+    ],
+    "z_hop": [
+        "0.2"
+    ],
+    "z_hop_types": [
+        "Slope Lift"
+    ],
+    "z_hop_when_prime": [
+        "1"
+    ],
+    "z_offset": "0"
+}

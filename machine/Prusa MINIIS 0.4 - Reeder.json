@@ -1,0 +1,39 @@
+{
+    "from": "User",
+    "high_current_on_filament_swap": "1",
+    "inherits": "Prusa MINIIS 0.6 nozzle",
+    "is_custom_defined": "0",
+    "machine_max_jerk_x": [
+        "12",
+        "8"
+    ],
+    "machine_max_jerk_y": [
+        "10",
+        "8"
+    ],
+    "manual_filament_change": "1",
+    "max_layer_height": [
+        "0.45"
+    ],
+    "min_layer_height": [
+        "0.1"
+    ],
+    "name": "Prusa MINIIS 0.4 - Reeder",
+    "nozzle_diameter": [
+        "0.4"
+    ],
+    "print_host": "prusalink",
+    "printer_notes": "Compared to the standard Prusa MINI, the nozzle is upgraded to a 0.6mm nozzle of hardened steel. Additionally, the original extruder has been replaced with a Bondtech extruder that fully encloses the filament path and raises the maximum object height by 5mm. The firmware is also upgraded to support Input Shaping.\n\nDon't remove the following keywords! These keywords are used in the \"compatible printer\" condition of the print and filament profiles to link the particular print and filament profiles to this printer profile.\nPRINTER_VENDOR_PRUSA3D\nPRINTER_MODEL_MINIIS\nPRINTER_HAS_BOWDEN\nEXTRUDER_VENDOR_BONDTECH\nNO_TEMPLATES",
+    "printer_settings_id": "Prusa MINIIS 0.4 - Reeder",
+    "printhost_authorization_type": "user",
+    "printhost_password": "ce8TMAz5L4hwctJ",
+    "printhost_user": "maker",
+    "retraction_length": [
+        "1.5"
+    ],
+    "time_cost": "0.012",
+    "version": "2.3.1.10",
+    "z_hop_types": [
+        "Normal Lift"
+    ]
+}

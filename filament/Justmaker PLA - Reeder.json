@@ -1,0 +1,50 @@
+{
+    "compatible_printers": [],
+    "enable_pressure_advance": [
+        "0"
+    ],
+    "fan_min_speed": [
+        "30"
+    ],
+    "filament_cost": [
+        "18.99"
+    ],
+    "filament_density": [
+        "1.31"
+    ],
+    "filament_max_volumetric_speed": [
+        "7"
+    ],
+    "filament_settings_id": [
+        "Justmaker PLA - Reeder"
+    ],
+    "filament_vendor": [
+        "Justmaker"
+    ],
+    "from": "User",
+    "full_fan_speed_layer": [
+        "3"
+    ],
+    "inherits": "Prusa Generic PLA @Prusa MINIIS 0.6 nozzle",
+    "is_custom_defined": "0",
+    "name": "Justmaker PLA - Reeder",
+    "nozzle_temperature": [
+        "215"
+    ],
+    "pressure_advance": [
+        "0.014"
+    ],
+    "slow_down_min_speed": [
+        "20"
+    ],
+    "temperature_vitrification": [
+        "65"
+    ],
+    "textured_plate_temp": [
+        "65"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "65"
+    ],
+    "version": "2.3.1.10"
+}

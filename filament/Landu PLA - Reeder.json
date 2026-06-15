@@ -1,0 +1,50 @@
+{
+    "compatible_printers": [],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "filament_cost": [
+        "14.99"
+    ],
+    "filament_density": [
+        "1.23"
+    ],
+    "filament_max_volumetric_speed": [
+        "16"
+    ],
+    "filament_settings_id": [
+        "Landu PLA - Reeder"
+    ],
+    "filament_vendor": [
+        "Landu"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "60"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "60"
+    ],
+    "inherits": "Polymaker General PLA Family @U1",
+    "is_custom_defined": "0",
+    "name": "Landu PLA - Reeder",
+    "nozzle_temperature": [
+        "210"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "215"
+    ],
+    "nozzle_temperature_range_high": [
+        "220"
+    ],
+    "nozzle_temperature_range_low": [
+        "200"
+    ],
+    "pressure_advance": [
+        "0.021804"
+    ],
+    "temperature_vitrification": [
+        "61"
+    ],
+    "version": "2.2.44.2"
+}

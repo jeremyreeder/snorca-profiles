@@ -1,0 +1,55 @@
+{
+    "compatible_printers": [],
+    "compatible_printers_condition": "nozzle_diameter[0]>=0.4",
+    "compatible_prints_condition": "layer_height*inner_wall_line_width*inner_wall_speed>=31",
+    "dont_slow_down_outer_wall": [
+        "1"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "filament_cost": [
+        "24.99"
+    ],
+    "filament_density": [
+        "1.23"
+    ],
+    "filament_flow_ratio": [
+        "0.966"
+    ],
+    "filament_max_volumetric_speed": [
+        "30"
+    ],
+    "filament_settings_id": [
+        "PolySonic PLA Max Flow - Reeder"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "60"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "60"
+    ],
+    "inherits": "Polymaker General PLA Family @U1",
+    "is_custom_defined": "0",
+    "name": "PolySonic PLA Max Flow - Reeder",
+    "nozzle_temperature": [
+        "230"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "230"
+    ],
+    "nozzle_temperature_range_low": [
+        "210"
+    ],
+    "pressure_advance": [
+        "0.0227"
+    ],
+    "slow_down_min_speed": [
+        "25"
+    ],
+    "temperature_vitrification": [
+        "61"
+    ],
+    "version": "2.2.44.2"
+}

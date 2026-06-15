@@ -1,0 +1,47 @@
+{
+    "compatible_printers": [],
+    "filament_cost": [
+        "29.99"
+    ],
+    "filament_density": [
+        "1.23"
+    ],
+    "filament_flow_ratio": [
+        "0.966"
+    ],
+    "filament_max_volumetric_speed": [
+        "10"
+    ],
+    "filament_settings_id": [
+        "PolySmooth PVB - Reeder"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "65"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "65"
+    ],
+    "inherits": "Polymaker General PLA Family @U1",
+    "is_custom_defined": "0",
+    "name": "PolySmooth PVB - Reeder",
+    "nozzle_temperature": [
+        "210"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "215"
+    ],
+    "pressure_advance": [
+        "0.0227"
+    ],
+    "temperature_vitrification": [
+        "61"
+    ],
+    "textured_plate_temp": [
+        "70"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "70"
+    ],
+    "version": "2.2.44.2"
+}

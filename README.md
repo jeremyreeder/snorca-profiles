@@ -1,6 +1,6 @@
 # snorca-profiles
 This repo consists of custom-tuned machine, filament, and process profiles for Snapmaker Orca. Its purposes are as follows:
-- To improve print quality compared to Snapmaker's default profiles.
+- To improve print quality compared to factory-provided profiles.
 - To increase print efficiency in terms of time, material usage, and success-to-failure ratio.
 - To optimize temperature settings for a variety of good filament materials.
 - To provide a set of easily navigated process profiles, each consisting of my best known default print settings for a particular purpose.

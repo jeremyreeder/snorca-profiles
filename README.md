@@ -8,3 +8,8 @@ $ git clone https://github.com/jeremyreeder/snorca-profiles.git
 $ mv default default.original
 $ ln -s snorca-profiles default
 ```
+## Periodic Updates
+```
+$ cd ~/.config/Snapmaker_Orca/user/snorca-profiles
+$ git pull
+```

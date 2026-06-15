@@ -5,6 +5,8 @@ This repo consists of custom-tuned machine, filament, and process profiles for S
 - To optimize temperature settings for a variety of good filament materials.
 - To provide a set of easily navigated process profiles, each consisting of my best known default print settings for a particular purpose.
 
+There are no universal *best* settings, of course, as it always depends on what you're making.
+
 ## Installation (for Linux AppImage version of Snapmaker Orca)
 ```
 $ cd ~/.config/Snapmaker_Orca/user

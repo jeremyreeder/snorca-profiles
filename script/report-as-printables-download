@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+
+model_uuid=c5f98471-8d3d-47dc-a8b7-6f9ebe064520
+file_uuid=13150913_dfee7dd0-71b9-453a-b7e7-c25915a564f1_ff4033ed-3427-41dd-917a-0f20156ce237
+file_name=disco-ball-applique.3mf
+
+curl -sLo /dev/null "https://files.printables.com/media/prints/$model_uuid/stls/$file_uuid/$file_name" \
+&& echo 'Thank you.'

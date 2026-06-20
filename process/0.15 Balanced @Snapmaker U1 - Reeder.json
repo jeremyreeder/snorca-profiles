@@ -32,6 +32,7 @@
     "sparse_infill_speed": "180",
     "support_line_width": "105%",
     "support_threshold_angle": "20",
+    "support_type": "normal(auto)",
     "top_surface_line_width": "90%",
     "top_surface_pattern": "concentric",
     "top_surface_speed": "180",

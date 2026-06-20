@@ -29,7 +29,7 @@
     "sparse_infill_line_width": "112.5%",
     "sparse_infill_pattern": "adaptivecubic",
     "support_line_width": "105%",
-    "support_type": "normal(manual)",
+    "support_type": "normal(auto)",
     "top_shell_layers": "7",
     "top_shell_thickness": "1.4",
     "top_surface_line_width": "100%",

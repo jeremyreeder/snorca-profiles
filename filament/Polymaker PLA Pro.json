@@ -7,7 +7,7 @@
         "30"
     ],
     "filament_cost": [
-        "19.99"
+        "23.99"
     ],
     "filament_density": [
         "1.23"
@@ -16,10 +16,10 @@
         "0.966"
     ],
     "filament_max_volumetric_speed": [
-        "20"
+        "25"
     ],
     "filament_settings_id": [
-        "PolySonic PLA"
+        "Polymaker PLA Pro"
     ],
     "from": "User",
     "full_fan_speed_layer": [
@@ -33,8 +33,14 @@
     ],
     "inherits": "Polymaker General PLA Family @U1",
     "is_custom_defined": "0",
-    "name": "PolySonic PLA",
+    "name": "Polymaker PLA Pro",
     "nozzle_temperature": [
+        "215"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "225"
+    ],
+    "nozzle_temperature_range_low": [
         "210"
     ],
     "pressure_advance": [

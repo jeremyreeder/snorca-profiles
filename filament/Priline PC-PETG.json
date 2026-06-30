@@ -18,10 +18,10 @@
         "9"
     ],
     "filament_settings_id": [
-        "CC3D PC-PETG"
+        "Priline PC-PETG"
     ],
     "filament_vendor": [
-        "CC3D"
+        "Priline"
     ],
     "from": "User",
     "full_fan_speed_layer": [
@@ -29,7 +29,7 @@
     ],
     "inherits": "Generic PC",
     "is_custom_defined": "0",
-    "name": "CC3D PC-PETG",
+    "name": "Priline PC-PETG",
     "nozzle_temperature": [
         "260"
     ],

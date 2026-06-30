@@ -1,13 +1,19 @@
 {
     "compatible_printers": [],
+    "dont_slow_down_outer_wall": [
+        "1"
+    ],
     "filament_cost": [
-        "19.99"
+        "20.59"
+    ],
+    "filament_density": [
+        "1.31"
     ],
     "filament_max_volumetric_speed": [
-        "13"
+        "15"
     ],
     "filament_settings_id": [
-        "PolyLite PLA - Reeder"
+        "PolyTerra PLA Reeder"
     ],
     "filament_vendor": [
         "Polymaker"
@@ -18,15 +24,15 @@
     ],
     "inherits": "Prusa Generic PLA @Prusa MINIIS 0.6 nozzle",
     "is_custom_defined": "0",
-    "name": "PolyLite PLA - Reeder",
+    "name": "PolyTerra PLA Reeder",
     "nozzle_temperature": [
-        "190"
+        "205"
     ],
     "nozzle_temperature_initial_layer": [
-        "195"
+        "210"
     ],
     "pressure_advance": [
-        "0.017"
+        "0.014"
     ],
     "temperature_vitrification": [
         "65"

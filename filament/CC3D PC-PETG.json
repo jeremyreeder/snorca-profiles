@@ -18,7 +18,7 @@
         "9"
     ],
     "filament_settings_id": [
-        "CC3D PC-PETG - Reeder"
+        "CC3D PC-PETG"
     ],
     "filament_vendor": [
         "CC3D"
@@ -29,7 +29,7 @@
     ],
     "inherits": "Generic PC",
     "is_custom_defined": "0",
-    "name": "CC3D PC-PETG - Reeder",
+    "name": "CC3D PC-PETG",
     "nozzle_temperature": [
         "260"
     ],

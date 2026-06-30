@@ -13,7 +13,7 @@
         "10"
     ],
     "filament_settings_id": [
-        "PolySmooth PVB - Reeder"
+        "PolySmooth PVB"
     ],
     "from": "User",
     "hot_plate_temp": [
@@ -24,7 +24,7 @@
     ],
     "inherits": "Polymaker General PLA Family @U1",
     "is_custom_defined": "0",
-    "name": "PolySmooth PVB - Reeder",
+    "name": "PolySmooth PVB",
     "nozzle_temperature": [
         "210"
     ],

@@ -3,7 +3,7 @@
         "8"
     ],
     "filament_settings_id": [
-        "Stronghero PETG - Reeder"
+        "Stronghero PETG"
     ],
     "filament_vendor": [
         "Stronghero"
@@ -11,7 +11,7 @@
     "from": "User",
     "inherits": "Generic PETG",
     "is_custom_defined": "0",
-    "name": "Stronghero PETG - Reeder",
+    "name": "Stronghero PETG",
     "nozzle_temperature": [
         "220"
     ],

@@ -1,47 +1,50 @@
 {
     "compatible_printers": [],
     "enable_pressure_advance": [
-        "1"
+        "0"
     ],
     "fan_min_speed": [
         "30"
     ],
     "filament_cost": [
-        "24.99"
+        "18.99"
     ],
     "filament_density": [
-        "1.23"
-    ],
-    "filament_flow_ratio": [
-        "0.966"
+        "1.31"
     ],
     "filament_max_volumetric_speed": [
-        "20"
+        "7"
     ],
     "filament_settings_id": [
-        "PolySonic PLA - Reeder"
+        "Justmaker PLA"
+    ],
+    "filament_vendor": [
+        "Justmaker"
     ],
     "from": "User",
     "full_fan_speed_layer": [
         "3"
     ],
-    "hot_plate_temp": [
-        "60"
-    ],
-    "hot_plate_temp_initial_layer": [
-        "60"
-    ],
-    "inherits": "Polymaker General PLA Family @U1",
+    "inherits": "Prusa Generic PLA @Prusa MINIIS 0.6 nozzle",
     "is_custom_defined": "0",
-    "name": "PolySonic PLA - Reeder",
+    "name": "Justmaker PLA",
     "nozzle_temperature": [
-        "210"
+        "215"
     ],
     "pressure_advance": [
-        "0.0227"
+        "0.014"
+    ],
+    "slow_down_min_speed": [
+        "20"
     ],
     "temperature_vitrification": [
-        "61"
+        "65"
     ],
-    "version": "2.2.44.2"
+    "textured_plate_temp": [
+        "65"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "65"
+    ],
+    "version": "2.3.1.10"
 }

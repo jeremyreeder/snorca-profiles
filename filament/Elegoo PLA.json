@@ -1,50 +1,56 @@
 {
     "compatible_printers": [],
     "enable_pressure_advance": [
-        "0"
+        "1"
     ],
     "fan_min_speed": [
-        "30"
+        "20"
     ],
     "filament_cost": [
-        "18.99"
+        "17.81"
     ],
     "filament_density": [
-        "1.31"
+        "1.23"
     ],
     "filament_max_volumetric_speed": [
-        "7"
+        "5"
     ],
     "filament_settings_id": [
-        "Justmaker PLA - Reeder"
+        "Elegoo PLA"
     ],
     "filament_vendor": [
-        "Justmaker"
+        "Elegoo"
     ],
     "from": "User",
     "full_fan_speed_layer": [
         "3"
     ],
-    "inherits": "Prusa Generic PLA @Prusa MINIIS 0.6 nozzle",
+    "hot_plate_temp": [
+        "65"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "65"
+    ],
+    "inherits": "Polymaker General PLA Family @U1",
     "is_custom_defined": "0",
-    "name": "Justmaker PLA - Reeder",
-    "nozzle_temperature": [
-        "215"
+    "name": "Elegoo PLA",
+    "nozzle_temperature_initial_layer": [
+        "225"
     ],
     "pressure_advance": [
-        "0.014"
+        "0.02166"
     ],
     "slow_down_min_speed": [
-        "20"
+        "7"
     ],
     "temperature_vitrification": [
-        "65"
+        "61"
     ],
     "textured_plate_temp": [
-        "65"
+        "70"
     ],
     "textured_plate_temp_initial_layer": [
-        "65"
+        "70"
     ],
-    "version": "2.3.1.10"
+    "version": "2.2.44.2"
 }

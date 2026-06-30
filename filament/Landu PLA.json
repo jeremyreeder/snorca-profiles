@@ -3,54 +3,48 @@
     "enable_pressure_advance": [
         "1"
     ],
-    "fan_min_speed": [
-        "20"
-    ],
     "filament_cost": [
-        "17.81"
+        "14.99"
     ],
     "filament_density": [
         "1.23"
     ],
     "filament_max_volumetric_speed": [
-        "5"
+        "16"
     ],
     "filament_settings_id": [
-        "Elegoo PLA - Reeder"
+        "Landu PLA"
     ],
     "filament_vendor": [
-        "Elegoo"
+        "Landu"
     ],
     "from": "User",
-    "full_fan_speed_layer": [
-        "3"
-    ],
     "hot_plate_temp": [
-        "65"
+        "60"
     ],
     "hot_plate_temp_initial_layer": [
-        "65"
+        "60"
     ],
     "inherits": "Polymaker General PLA Family @U1",
     "is_custom_defined": "0",
-    "name": "Elegoo PLA - Reeder",
+    "name": "Landu PLA",
+    "nozzle_temperature": [
+        "210"
+    ],
     "nozzle_temperature_initial_layer": [
-        "225"
+        "215"
+    ],
+    "nozzle_temperature_range_high": [
+        "220"
+    ],
+    "nozzle_temperature_range_low": [
+        "200"
     ],
     "pressure_advance": [
-        "0.02166"
-    ],
-    "slow_down_min_speed": [
-        "7"
+        "0.021804"
     ],
     "temperature_vitrification": [
         "61"
-    ],
-    "textured_plate_temp": [
-        "70"
-    ],
-    "textured_plate_temp_initial_layer": [
-        "70"
     ],
     "version": "2.2.44.2"
 }

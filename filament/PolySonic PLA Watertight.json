@@ -13,7 +13,7 @@
         "1"
     ],
     "filament_settings_id": [
-        "PolySonic PLA Watertight - Reeder"
+        "PolySonic PLA Watertight"
     ],
     "from": "User",
     "hot_plate_temp": [
@@ -24,7 +24,7 @@
     ],
     "inherits": "Polymaker General PLA Family @U1",
     "is_custom_defined": "0",
-    "name": "PolySonic PLA Watertight - Reeder",
+    "name": "PolySonic PLA Watertight",
     "nozzle_temperature_initial_layer": [
         "230"
     ],

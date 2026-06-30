@@ -21,7 +21,7 @@
         "30"
     ],
     "filament_settings_id": [
-        "PolySonic PLA Max Flow - Reeder"
+        "PolySonic PLA Max Flow"
     ],
     "from": "User",
     "hot_plate_temp": [
@@ -32,7 +32,7 @@
     ],
     "inherits": "Polymaker General PLA Family @U1",
     "is_custom_defined": "0",
-    "name": "PolySonic PLA Max Flow - Reeder",
+    "name": "PolySonic PLA Max Flow",
     "nozzle_temperature": [
         "230"
     ],

@@ -3,22 +3,28 @@
     "enable_pressure_advance": [
         "1"
     ],
+    "fan_min_speed": [
+        "30"
+    ],
     "filament_cost": [
-        "14.99"
+        "24.99"
     ],
     "filament_density": [
         "1.23"
     ],
+    "filament_flow_ratio": [
+        "0.966"
+    ],
     "filament_max_volumetric_speed": [
-        "16"
+        "20"
     ],
     "filament_settings_id": [
-        "Landu PLA - Reeder"
-    ],
-    "filament_vendor": [
-        "Landu"
+        "PolySonic PLA"
     ],
     "from": "User",
+    "full_fan_speed_layer": [
+        "3"
+    ],
     "hot_plate_temp": [
         "60"
     ],
@@ -27,21 +33,12 @@
     ],
     "inherits": "Polymaker General PLA Family @U1",
     "is_custom_defined": "0",
-    "name": "Landu PLA - Reeder",
+    "name": "PolySonic PLA",
     "nozzle_temperature": [
         "210"
     ],
-    "nozzle_temperature_initial_layer": [
-        "215"
-    ],
-    "nozzle_temperature_range_high": [
-        "220"
-    ],
-    "nozzle_temperature_range_low": [
-        "200"
-    ],
     "pressure_advance": [
-        "0.021804"
+        "0.0227"
     ],
     "temperature_vitrification": [
         "61"

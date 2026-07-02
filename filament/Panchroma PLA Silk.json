@@ -10,7 +10,7 @@
         "12"
     ],
     "filament_settings_id": [
-        "Panchroma Silk PLA"
+        "Panchroma PLA Silk"
     ],
     "filament_vendor": [
         "Polymaker"
@@ -27,7 +27,7 @@
     ],
     "inherits": "Prusa Generic PLA @Prusa MINIIS 0.6 nozzle",
     "is_custom_defined": "0",
-    "name": "Panchroma Silk PLA",
+    "name": "Panchroma PLA Silk",
     "nozzle_temperature": [
         "205"
     ],

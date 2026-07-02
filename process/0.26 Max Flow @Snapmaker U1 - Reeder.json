@@ -1,6 +1,7 @@
 {
     "bridge_density": "85%",
     "bridge_flow": "0.85",
+    "brim_type": "brim_ears",
     "detect_thin_wall": "1",
     "enable_extra_bridge_layer": "external_bridge_only",
     "enable_overhang_speed": "0",

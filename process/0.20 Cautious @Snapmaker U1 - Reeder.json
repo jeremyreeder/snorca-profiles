@@ -3,6 +3,7 @@
     "bridge_density": "90%",
     "bridge_flow": "0.9",
     "brim_object_gap": "0",
+    "brim_type": "brim_ears",
     "brim_width": "15",
     "detect_thin_wall": "1",
     "enable_extra_bridge_layer": "external_bridge_only",

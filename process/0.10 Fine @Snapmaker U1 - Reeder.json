@@ -1,6 +1,7 @@
 {
     "bridge_density": "95%",
     "bridge_flow": "0.95",
+    "brim_type": "brim_ears",
     "enable_extra_bridge_layer": "apply_to_all",
     "enable_support": "1",
     "exclude_object": "1",

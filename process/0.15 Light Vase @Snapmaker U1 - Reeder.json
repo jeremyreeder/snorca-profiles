@@ -3,6 +3,7 @@
     "bottom_shell_thickness": "1",
     "bridge_density": "90%",
     "bridge_flow": "0.9",
+    "brim_type": "brim_ears",
     "enable_extra_bridge_layer": "external_bridge_only",
     "enable_prime_tower": "0",
     "exclude_object": "1",

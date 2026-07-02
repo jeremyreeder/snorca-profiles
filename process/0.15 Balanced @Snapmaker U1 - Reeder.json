@@ -7,7 +7,6 @@
     "extra_perimeters_on_overhangs": "1",
     "filename_format": "{if plate_name!=\"\"}{plate_name}{else}{input_filename_base}{endif}.gcode",
     "from": "User",
-    "fuzzy_skin": "external",
     "fuzzy_skin_noise_type": "perlin",
     "fuzzy_skin_thickness": "0.05",
     "inherits": "0.08 High Quality @Snapmaker U1 (0.4 nozzle)",

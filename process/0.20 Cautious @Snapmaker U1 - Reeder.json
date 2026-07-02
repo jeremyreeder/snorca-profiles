@@ -11,6 +11,8 @@
     "exclude_object": "1",
     "filename_format": "{if plate_name!=\"\"}{plate_name}{else}{input_filename_base}{endif}.gcode",
     "from": "User",
+    "fuzzy_skin_noise_type": "perlin",
+    "fuzzy_skin_thickness": "0.067",
     "gap_infill_speed": "210",
     "inherits": "0.20 Standard @Snapmaker U1 (0.4 nozzle)",
     "initial_layer_infill_speed": "80",

@@ -11,6 +11,7 @@
     "from": "User",
     "fuzzy_skin": "external",
     "fuzzy_skin_noise_type": "perlin",
+    "fuzzy_skin_thickness": "0.1",
     "gap_infill_speed": "60",
     "infill_wall_overlap": "20%",
     "inherits": "0.20 Standard @Snapmaker U1 (0.4 nozzle)",

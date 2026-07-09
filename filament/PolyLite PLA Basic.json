@@ -4,10 +4,10 @@
         "19.99"
     ],
     "filament_max_volumetric_speed": [
-        "13"
+        "6"
     ],
     "filament_settings_id": [
-        "PolyLite PLA Reeder"
+        "PolyLite PLA Basic"
     ],
     "filament_vendor": [
         "Polymaker"
@@ -18,7 +18,7 @@
     ],
     "inherits": "Prusa Generic PLA @Prusa MINIIS 0.6 nozzle",
     "is_custom_defined": "0",
-    "name": "PolyLite PLA Reeder",
+    "name": "PolyLite PLA Basic",
     "nozzle_temperature": [
         "190"
     ],
@@ -27,6 +27,9 @@
     ],
     "pressure_advance": [
         "0.017"
+    ],
+    "slow_down_min_speed": [
+        "3"
     ],
     "temperature_vitrification": [
         "65"

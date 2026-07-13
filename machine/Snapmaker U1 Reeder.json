@@ -9,16 +9,10 @@
     "printer_notes": "The standard Snapmaker U1 printer, in its default hardware configuration which includes four 0.4mm nozzles of stainless steel. Settings tuned by Jeremy Reeder.",
     "printer_settings_id": "Snapmaker U1 Reeder",
     "retract_length_toolchange": [
-        "2",
-        "10",
-        "10",
-        "10"
-    ],
-    "retraction_length": [
-        "1",
-        "1",
-        "1",
-        "1"
+        "5",
+        "5",
+        "5",
+        "5"
     ],
     "time_cost": "0.015",
     "version": "2.2.44.2",

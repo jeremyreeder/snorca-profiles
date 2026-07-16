@@ -1,5 +1,8 @@
 {
     "compatible_printers": [],
+    "fan_min_speed": [
+        "50"
+    ],
     "filament_cost": [
         "19.99"
     ],
@@ -22,6 +25,9 @@
         "Spiral Lift"
     ],
     "from": "User",
+    "full_fan_speed_layer": [
+        "3"
+    ],
     "idle_temperature": [
         "185"
     ],

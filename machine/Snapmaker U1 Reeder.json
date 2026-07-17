@@ -1,6 +1,6 @@
 {
-    "extruder_clearance_height_to_rod": "30",
-    "extruder_clearance_radius": "65",
+    "extruder_clearance_height_to_rod": "28.5",
+    "extruder_clearance_radius": "73",
     "from": "User",
     "inherits": "Snapmaker U1 (0.4 nozzle)",
     "is_custom_defined": "0",

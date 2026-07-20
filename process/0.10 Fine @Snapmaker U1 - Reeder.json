@@ -22,7 +22,7 @@
     "line_width": "105%",
     "name": "0.10 Fine @Snapmaker U1 - Reeder",
     "notes": "Compared to the standard profile, it prints rather slowly and in thinner layers. This results in high-quality prints with almost negligible layer lines, at the cost of substantially longer printing time. Outer perimeters are very lightly textured to hide layer lines. Suitable for highly detailed figurines.",
-    "outer_wall_line_width": "105%",
+    "outer_wall_line_width": "125%",
     "overhang_1_4_speed": "50",
     "overhang_2_4_speed": "25",
     "overhang_3_4_speed": "15",

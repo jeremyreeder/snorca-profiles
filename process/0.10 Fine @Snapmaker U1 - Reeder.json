@@ -17,6 +17,7 @@
     "initial_layer_line_width": "125%",
     "initial_layer_speed": "35",
     "inner_wall_line_width": "112.5%",
+    "internal_bridge_speed": "30",
     "internal_solid_infill_line_width": "105%",
     "is_custom_defined": "0",
     "layer_height": "0.1",

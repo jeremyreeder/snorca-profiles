@@ -4,6 +4,7 @@
     "bridge_speed": "30",
     "brim_type": "brim_ears",
     "enable_extra_bridge_layer": "apply_to_all",
+    "ensure_vertical_shell_thickness": "ensure_moderate",
     "exclude_object": "1",
     "extra_perimeters_on_overhangs": "1",
     "filename_format": "{if plate_name!=\"\"}{plate_name}{else}{input_filename_base}{endif}.gcode",

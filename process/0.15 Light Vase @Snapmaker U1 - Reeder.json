@@ -7,7 +7,6 @@
     "brim_type": "brim_ears",
     "enable_extra_bridge_layer": "external_bridge_only",
     "enable_prime_tower": "0",
-    "ensure_vertical_shell_thickness": "ensure_moderate",
     "exclude_object": "1",
     "filename_format": "{if plate_name!=\"\"}{plate_name}{else}{input_filename_base}{endif}.gcode",
     "from": "User",

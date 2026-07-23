@@ -45,6 +45,7 @@
     "slowdown_for_curled_perimeters": "1",
     "sparse_infill_density": "0%",
     "sparse_infill_line_width": "112.5%",
+    "sparse_infill_pattern": "tpmsd",
     "sparse_infill_speed": "60",
     "spiral_mode": "1",
     "support_interface_not_for_body": "0",

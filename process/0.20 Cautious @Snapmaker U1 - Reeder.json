@@ -44,6 +44,7 @@
     "slow_down_layers": "3",
     "slowdown_for_curled_perimeters": "1",
     "sparse_infill_line_width": "112.5%",
+    "sparse_infill_pattern": "cubic",
     "sparse_infill_speed": "150",
     "support_critical_regions_only": "1",
     "support_interface_not_for_body": "0",

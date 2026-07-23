@@ -36,6 +36,7 @@
     "slow_down_layers": "2",
     "sparse_infill_density": "13%",
     "sparse_infill_line_width": "130%",
+    "sparse_infill_pattern": "crosshatch",
     "support_line_width": "105%",
     "support_threshold_angle": "35",
     "support_type": "normal(auto)",

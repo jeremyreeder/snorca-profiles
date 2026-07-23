@@ -36,6 +36,7 @@
     "overhang_1_4_speed": "65",
     "overhang_2_4_speed": "30",
     "overhang_3_4_speed": "15",
+    "prime_tower_brim_width": "10",
     "prime_volume": "12",
     "print_sequence": "by object",
     "print_settings_id": "0.15 Light Vase @Snapmaker U1 - Reeder",

@@ -29,6 +29,7 @@
     "overhang_2_4_speed": "70",
     "overhang_3_4_speed": "45",
     "overhang_4_4_speed": "20",
+    "prime_tower_brim_width": "10",
     "prime_volume": "12",
     "print_settings_id": "0.26 Max Flow @Snapmaker U1 - Reeder",
     "raft_first_layer_expansion": "3",

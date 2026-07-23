@@ -36,6 +36,7 @@
     "overhang_1_4_speed": "70",
     "overhang_2_4_speed": "35",
     "overhang_3_4_speed": "20",
+    "prime_tower_brim_width": "10",
     "prime_volume": "15",
     "print_settings_id": "0.30 Heavy Vase @Snapmaker U1 - Reeder",
     "raft_first_layer_expansion": "3",
